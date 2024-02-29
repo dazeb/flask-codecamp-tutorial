@@ -1,0 +1,287 @@
+repo_name: dazeb/flask-codecamp-tutorial
+report_id: e90fa5b24de69eb0dac7abb2315c9956
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:26:46+00:00'
+requested_by: dazeb
+provider: github
+branch: main
+detected_tools_count: 20
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/env/lib/python3.8/site-packages/werkzeug/debug/shared/debugger.js
+  detection_source: env/lib/python3.8/site-packages/werkzeug/debug/shared/debugger.js
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 12:23:14.000000000 Z
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 13:00:37.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial
+  detection_source: Repo Metadata
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  version: 1.4.23
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 13:00:37.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 13:00:37.000000000 Z
+- name: Flask
+  description: A simple framework for building complex web applications
+  package_url: https://pypi.org/project/Flask
+  version: 2.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 13:00:37.000000000 Z
+- name: Flask-SQLAlchemy
+  description: Adds SQLAlchemy support to your Flask application
+  package_url: https://pypi.org/project/Flask-SQLAlchemy
+  version: 2.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19941/default_aacb529ceff756b62765790d8d6787a041d514ff.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 13:00:37.000000000 Z
+- name: MarkupSafe
+  description: Safely add untrusted strings to HTML/XML markup
+  package_url: https://pypi.org/project/MarkupSafe
+  version: 2.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19945/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 13:00:37.000000000 Z
+- name: Werkzeug
+  description: The comprehensive WSGI web application library
+  package_url: https://pypi.org/project/Werkzeug
+  version: 2.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19890/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 15:09:00.000000000 Z
+  vulnerabilities:
+  - name: High resource usage when parsing multipart form data with many fields
+    cve_id: CVE-2023-25577
+    cve_url: https://github.com/advisories/GHSA-xg9f-g7g7-2323
+    detected_date: Feb 16
+    severity: high
+    first_patched: 2.2.3
+  - name: Incorrect parsing of nameless cookies leads to __Host- cookies bypass
+    cve_id: CVE-2023-23934
+    cve_url: https://github.com/advisories/GHSA-px8h-6qxv-m22q
+    detected_date: Feb 16
+    severity: low
+    first_patched: 2.2.3
+- name: appdirs
+  description: A small Python module for determining appropriate platform-specific
+    dirs, e.g
+  package_url: https://pypi.org/project/appdirs
+  version: 1.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19878/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 13:00:37.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 13:00:37.000000000 Z
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  version: 8.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 13:00:37.000000000 Z
+- name: greenlet
+  description: Lightweight in-process concurrent programming
+  package_url: https://pypi.org/project/greenlet
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20137/default_e3ea003987b13e5c9b8c9000c748b25a9c0d9ecd.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 13:00:37.000000000 Z
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 20.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 13:00:37.000000000 Z
+- name: itsdangerous
+  description: Various helpers to pass data to untrusted environments and back
+  package_url: https://pypi.org/project/itsdangerous
+  version: 2.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19989/default_b1f1fc9c4c59a78443018e01395203ba8c61dcde.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 13:00:37.000000000 Z
+- name: pathspec
+  description: Utility library for gitignore style pattern matching of file paths
+  package_url: https://pypi.org/project/pathspec
+  version: 0.9.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20261/default_24e344cf78482d8a66297ae9ebea86f00b570483.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 13:00:37.000000000 Z
+- name: regex
+  description: Alternative regular expression module, to replace re
+  package_url: https://pypi.org/project/regex
+  version: 2021.8.28
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19923/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 13:00:37.000000000 Z
+- name: tomli
+  description: A lil' TOML parser
+  package_url: https://pypi.org/project/tomli
+  version: 1.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/dazeb/flask-codecamp-tutorial/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Darren Bennett
+  last_updated_on: 2021-08-30 13:00:37.000000000 Z
